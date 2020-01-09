@@ -4,9 +4,7 @@ require 'directors_database'
 def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   #hash[:key] = "value"
-  if nds.kind_of?(Array)
-  elsif
-  end
+  
   
   nds.length.times do |hash|
     puts nds[hash][:name]
@@ -16,8 +14,14 @@ def directors_totals(nds)
   pp nds
 end
 
-person.each do |key, value|
-  puts "Bob's #{key} is #{value}"
+def recursive(nds, result)
+  if nds.kind_of?(Array)
+    nds.each do |obj|
+      recursive(obj, result)
+    end
+  elsif nds.kind_of?(Hash)
+    nds.each do ||
+  end
 end
 
 
