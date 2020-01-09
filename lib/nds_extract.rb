@@ -7,23 +7,7 @@ def directors_totals(nds)
   
   
   nds.length.times do |hash|
-    puts nds[hash][:name]
-  end
-  result = {
-  }
-  pp nds
-end
-
-def recursive(nds, result)
-  if nds.kind_of?(Array)
-    nds.each do |obj|
-      recursive(obj, result)
-    end
-  elsif nds.kind_of?(Hash)
-    nds.each do |key, value|
-      result
-    end
-  end
+    
 end
 
 
