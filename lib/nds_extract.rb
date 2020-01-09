@@ -21,7 +21,7 @@ def recursive(nds, result)
     end
   elsif nds.kind_of?(Hash)
     nds.each do |key, value|
-      
+      result
     end
   end
 end
