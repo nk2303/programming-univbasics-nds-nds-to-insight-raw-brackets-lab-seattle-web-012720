@@ -11,7 +11,7 @@ def directors_totals(nds)
     total = 0
     nds[namehash][:movies] do |totalHash|
       total += nds[namehash][:movies][totalHash][:worldwide_gross]
-    
+    end
     hash[key] = total
   end
 end
