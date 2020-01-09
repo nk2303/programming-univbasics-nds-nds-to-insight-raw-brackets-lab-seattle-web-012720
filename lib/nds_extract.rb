@@ -11,7 +11,7 @@ def directors_totals(nds)
     value = nds[namehash][:name][:movie][:worldwide_gross]
     hash[key] = value
   end
-  
+  puts hash
   return hash
 end
 
