@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'The directors_database method can be processed by the directors_totals method' do
-  it 'which returns a Hash describing director to total' do
+  it 'which returns a dictionary describing director to total money earned' do
     expect(directors_totals(directors_database)).to be_kind_of(Hash)
   end
 
