@@ -8,7 +8,7 @@ def directors_totals(nds)
   hash = {}
   nds.length.times do |namehash|
     key = nds[namehash][:name]
-    value = nds[namehash][:movie][0][:worldwide_gross]
+    value = nds[namehash][:movies][0][:worldwide_gross]
     puts value
     hash[key] = value
   end
