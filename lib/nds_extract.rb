@@ -20,7 +20,9 @@ def recursive(nds, result)
       recursive(obj, result)
     end
   elsif nds.kind_of?(Hash)
-    nds.each do ||
+    nds.each do |key, value|
+      
+    end
   end
 end
 
