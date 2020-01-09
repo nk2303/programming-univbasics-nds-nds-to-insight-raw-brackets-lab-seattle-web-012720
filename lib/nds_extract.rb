@@ -9,6 +9,7 @@ def directors_totals(nds)
   nds.length.times do |namehash|
     key = nds[namehash][:name]
     total = 0
+    key.
     
     hash[key] = total
   end
