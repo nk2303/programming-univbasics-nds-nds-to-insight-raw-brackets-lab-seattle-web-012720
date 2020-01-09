@@ -9,7 +9,7 @@ def directors_totals(nds)
   nds.length.times do |nameHash|
     key = nds[nameHash][:name]
     total = 0
-    nds[namehash][:movies].length.times do |totalHash|
+    nds[nameHash][:movies].length.times do |totalHash|
       total += nds[namehash][:movies][totalHash][:worldwide_gross]
     end
     hash[key] = total
