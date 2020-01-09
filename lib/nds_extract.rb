@@ -10,7 +10,7 @@ def directors_totals(nds)
     key = nds[namehash][:name]
     hash[key] = {}
   end
-  puts hash
+  return hash
 end
 
 
