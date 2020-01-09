@@ -12,7 +12,6 @@ def directors_totals(nds)
     hash[key] = value
   end
   puts hash
-  return hash
 end
 
 
