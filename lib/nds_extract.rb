@@ -5,7 +5,7 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   #hash[:key] = "value"
   if nds.kind_of?(Array)
-    
+  elseif
   end
   
   nds.length.times do |hash|
