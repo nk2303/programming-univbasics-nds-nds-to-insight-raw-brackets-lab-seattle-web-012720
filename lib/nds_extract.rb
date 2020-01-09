@@ -16,3 +16,8 @@ def directors_totals(nds)
   pp nds
 end
 
+person.each do |key, value|
+  puts "Bob's #{key} is #{value}"
+end
+
+
