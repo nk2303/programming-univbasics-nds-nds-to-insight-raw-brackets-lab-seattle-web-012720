@@ -4,9 +4,7 @@ require 'directors_database'
 def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   #hash[:key] = "value"
-  nds
-  nds.each do ||
-  
+  if 
   
   nds.length.times do |hash|
     puts nds[hash][:name]
